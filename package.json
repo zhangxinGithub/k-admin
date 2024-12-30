@@ -1,0 +1,40 @@
+{
+  "name": "new-dy-smart",
+  "version": "1.0.0",
+  "main": "src/main.jsx",
+  "private": true,
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview",
+    "git": "tive git -c tive.git.config.cjs",
+    "lint:test": "eslint --ext .js,.jsx,.ts,.tsx,.vue --quiet ./src",
+    "lint": "eslint --ext .jsx,.js,.ts,.tsx,.vue --fix --quiet ./src"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^5.0.1",
+    "antd": "^5.17.2",
+    "axios": "^1.7.2",
+    "dayjs": "^1.11.7",
+    "js-md5": "^0.8.3",
+    "lodash-es": "^4.17.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^6.8.2",
+    "valtio": "^2.1.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@rsbuild/core": "^1.0.19",
+    "@rsbuild/plugin-less": "^1.1.0",
+    "@rsbuild/plugin-react": "^1.0.6",
+    "@types/lodash-es": "^4.17.10",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "@unocss/postcss": "^0.63.6",
+    "typescript": "^5.6.3",
+    "unocss": "^0.63.6"
+  },
+  "type": "module"
+}
